@@ -1,5 +1,5 @@
 import React from "react";
-
+import ActionsPage from "../ActionsPage";
 // Une fonction utilitaire simple pour combiner les classes CSS
 function cn(...classes) {
   return classes.filter(Boolean).join(" ");

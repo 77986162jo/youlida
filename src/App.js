@@ -3,9 +3,9 @@ import { SiteHeader } from "./components/SiteHeader"
 import { SiteFooter } from "./components/SiteFooter"
 import HomePage from './components/HomePage'
 import AboutPage from './components/AboutPage'
-// import ActionsPage from './components/ActionsPage'
-// import GetInvolvedPage from './components/GetInvolvedPage'
-// import ContactPage from './components/ContactPage'
+import ActionsPage from './components/ActionsPage'
+import GetInvolvedPage from './components/GetInvolvedPage'
+import ContactPage from './components/ContactPage'
 
 function App() {
   return (
@@ -17,9 +17,9 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/a-propos" element={<AboutPage />} />
-            {/* <Route path="/nos-actions" element={<ActionsPage />} /> */}
-            {/* <Route path="/s-impliquer" element={<GetInvolvedPage />} /> */}
-            {/* <Route path="/contact" element={<ContactPage />} /> */}
+            <Route path="/nos-actions" element={<ActionsPage />} />
+            <Route path="/s-impliquer" element={<GetInvolvedPage />} />
+            <Route path="/contact" element={<ContactPage />} />
           </Routes>
         </main>
 
