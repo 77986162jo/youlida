@@ -16,16 +16,16 @@ export function SiteFooter() {
               Engager les jeunes africains à être des acteurs de changement pour eux-mêmes et leurs communautés.
             </p>
             <div className={styles.socialLinks}>
-              <a href="#" className={styles.socialLink}>
+              <a href="https://facebook.com" className={styles.socialLink}>
                 <Facebook className={styles.socialIcon} />
               </a>
-              <a href="#" className={styles.socialLink}>
+              <a href="https://instagram.com" className={styles.socialLink}>
                 <Instagram className={styles.socialIcon} />
               </a>
-              <a href="#" className={styles.socialLink}>
+              <a href="https://twitter.com" className={styles.socialLink}>
                 <Twitter className={styles.socialIcon} />
               </a>
-              <a href="#" className={styles.socialLink}>
+              <a href="https://linkedin.com" className={styles.socialLink}>
                 <Linkedin className={styles.socialIcon} />
               </a>
             </div>
