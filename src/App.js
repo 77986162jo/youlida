@@ -1,4 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import SiteTopBar from "./components/SiteTopBar";
+
 import { SiteHeader } from "./components/SiteHeader"
 import { SiteFooter } from "./components/SiteFooter"
 import HomePage from './components/HomePage'
@@ -11,6 +13,7 @@ function App() {
   return (
     <Router>
       <div className="flex flex-col min-h-screen">
+        <SiteTopBar />
         <SiteHeader />
         
         <main className="flex-grow">
